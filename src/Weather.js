@@ -32,10 +32,10 @@ console.log(apiWeather  )
 
 const btnFn = () => {
     setapiWeather({data:data})
-      setErr("Enter location")
+    //   setErr("Enter location")
 
       if(search === "" ) {
-          alert("Enter Location & UPdate deFAult location")
+            alert("Enter Location & UPdate deFAult location")
           setSearch("karachi")
       }
 
